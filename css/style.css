@@ -141,6 +141,7 @@ html,body{
 
 .container-2 p{
     width: 100%;
+    max-width: 768px;
     display: inline-block;
     text-align: justify;
     margin: 15px 0;
@@ -203,3 +204,29 @@ html,body{
 /*
 RESPONSIVE
 */
+@media screen and (max-width: 1024px) {
+    .header{
+        height: auto;
+        width: 100%;
+        padding: 15px 0;
+        text-align: center;
+    }
+    .header img{
+        margin: 0;
+    }
+    .container-banner{
+        width: 100%;
+        padding: 40px 2%;
+        height: auto;
+        text-align: center;
+    }
+    .form{
+        max-width: 400px;
+        width: 90%;
+        height: 100%;
+        padding: 10px;
+        top: 0px;
+        float: none;
+        display: inline-block;
+    }
+}
