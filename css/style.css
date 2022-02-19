@@ -1,0 +1,201 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+}
+
+.clear{
+    clear: both;
+}
+
+.center{
+    width: 1200px;
+    margin: 0 auto;
+    padding: 0 2%;
+}
+
+.header{
+    min-width: 1200px;
+    width: 100%;
+    height: 90px;
+    background-color: #212343;
+}
+/*IMAGEM - LOGO*/
+.header img{
+    width: 10%;
+    height: 10%;
+    border-radius: 10%;
+    margin: 10px;
+}
+
+.container-banner{
+    width: 100%;
+    height: 557px;
+    min-width: 1200px;
+    background-image: url('../images/img-painel.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.container-banner > .center{
+    height: 100%;
+}
+/*FORMULARIO*/
+.form{
+    width: 400px;
+    height: calc(100% + 30px);
+    padding: 10px;
+    position: relative;
+    top: -15px;
+    border: 1px solid #ccc;
+    background-color: rgba(255, 255, 255, 0.287);
+    background-clip: padding-box;
+    float: right;
+    border-radius: 5px;
+}
+
+.form h2{
+    font-weight: normal;
+    color: #212343;
+    font-size: 21px;
+}
+
+.input-container{
+    margin-top: 20px;
+}
+
+.input-container span{
+    display: inline-block;
+    width: 100%;
+    font-size: 17px;
+    color: #212343;
+}
+
+.input-container input[type=text]{
+    width: 350px;
+    height: 55px;
+    border: 1px solid #ccc;
+    margin-top: 8px;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 5px;
+}
+
+.form p{
+    display: inline-block;
+    width: 100%;
+    font-size: 17px;
+    color: #212343;
+    margin: 20px 0;
+}
+
+.form .input-submit-container{
+    text-align: center;
+}
+
+.form input[type=submit] {
+    border: 0;
+    width: 280px;
+    height: 56px;
+    display: inline-block;
+    background-color: #363A6D;
+    color: white;
+    font-size: 25px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.form input[type=submit]:hover{
+    background-color: #212343;
+}
+
+/*CONTAINER LIST LEFT*/
+.container-list{
+    padding: 30px;
+    float: left;
+    width: 520px;
+    height: 270px;
+    background-color: rgba(33, 35, 67, 0.7);
+    margin-top: 100px;
+    border-radius: 5px;
+}
+
+.container-list ul{
+    list-style-position: inside;
+}
+
+.container-list ul li{
+    margin-top: 20px;
+    color: rgba(255, 255, 255, 0.561);
+}
+
+.container-2{
+    min-width: 1200px;
+    padding: 40px 0;
+    background-color: #ccc;
+    text-align: center;
+}
+
+.container-2 p{
+    width: 698px;
+    display: inline-block;
+    text-align: justify;
+    margin: 15px 0;
+}
+
+/*ARROW - SETA*/
+.arrow{
+    position: relative;
+    left: 50%;
+    top: 60px;
+    width: 40px;
+    height: 40px;
+    background-image: url('../images/arrow.png');
+    background-size: 100% 100%;
+}
+
+.section-1{
+    padding: 90px 0;
+}
+
+.section-1 h2{
+    text-align: center;
+    color: #363A6D;
+    font-weight: normal;
+}
+
+.container-section{
+    margin-top: 10px;
+    text-align: center;
+}
+
+.container-single{
+    float: left;
+    width: 33.333%;
+    padding: 30px;
+}
+
+.container-single:last-child{
+    margin-right: 0;
+}
+
+.container-single p{
+    padding: 10px 25px;
+    text-align: justify;
+}
+
+.container-single img{
+    width: 150px;
+    border-radius: 10px;
+}
+
+
+.footer{
+    border-top: 2px solid #363A6D;
+    padding: 20px 0;
+    text-align: center;
+    color: #888;
+}
