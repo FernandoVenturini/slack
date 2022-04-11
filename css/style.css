@@ -29,7 +29,7 @@ html,body{
 .header img{
     width: 10%;
     height: 10%;
-    border-radius: 10%;
+    border-radius: 5%;
     margin: 10px;
 }
 
@@ -61,7 +61,7 @@ html,body{
 
 .form h2{
     font-weight: normal;
-    color: #212343;
+    color: #191a32;
     font-size: 21px;
 }
 
