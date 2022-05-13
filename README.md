@@ -1,2 +1,5 @@
 # slack
- landing page
+
+ Landing Page
+ 
+ Link Website: slackprojectdanki.netlify.app
