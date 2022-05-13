@@ -2,4 +2,4 @@
 
  Landing Page
  
- Link Website: slackprojectdanki.netlify.app
+ Link Website: https://slackprojectdanki.netlify.app
